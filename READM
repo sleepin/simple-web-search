@@ -1,0 +1,23 @@
+simple-web-search
+
+Display top 10 search results from google. 
+ 
+usage: search.py [-h] [-x ENGINE] [-q QUERY] [-k KEY] [-i ID] 
+ 
+Search web 
+ 
+optional arguments: 
+  -h, --help            show this help message and exit 
+  -x ENGINE, --engine ENGINE 
+                        Available options: GoogleWeb (default) GoogleAPI 
+  -q QUERY, --query QUERY 
+                        search query. 
+  -k KEY, --key KEY     search engine API key 
+  -i ID, --id ID        search engine API ID 
+
+
+Example:
+python search.py -q 'hello world'
+"Hello, World!" program - Wikipedia	https://en.wikipedia.org/wiki/%22Hello,_World!%22_program
+Purpose	https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#Purpose
+History	https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#History
